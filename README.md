@@ -142,6 +142,22 @@ gcc epsilon_closure.c -o epsilon_closure
 ./epsilon_closure
 ```
 
+![Epsilion DFA IMAGE](https://github.com/TheVivekYadav/CompilerDesignLab/blob/f0b8654c17abaecb19a80c74f65f4ddab8bc683e/4/4.jpeg)
+
+### **Example Input:**
+```
+11
+8
+0 1
+1 2
+1 3
+6 1
+0 7
+4 6
+5 6
+6 7
+```
+
 ### **Example Output:**
 ```
 ε-Closure(q0): { q0 q1 q2 }
