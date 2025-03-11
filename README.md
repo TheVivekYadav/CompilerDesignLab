@@ -160,9 +160,18 @@ gcc epsilon_closure.c -o epsilon_closure
 
 ### **Example Output:**
 ```
-ε-Closure(q0): { q0 q1 q2 }
-ε-Closure(q1): { q1 q2 }
+ε-Closure of states:
+ε-Closure(q0): { q0 q1 q2 q3 q7 }
+ε-Closure(q1): { q1 q2 q3 }
 ε-Closure(q2): { q2 }
+ε-Closure(q3): { q3 }
+ε-Closure(q4): { q1 q2 q3 q4 q6 q7 }
+ε-Closure(q5): { q1 q2 q3 q5 q6 q7 }
+ε-Closure(q6): { q1 q2 q3 q6 q7 }
+ε-Closure(q7): { q7 }
+ε-Closure(q8): { q8 }
+ε-Closure(q9): { q9 }
+ε-Closure(q10): { q10 }
 ```
 
 ---
