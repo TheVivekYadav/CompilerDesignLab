@@ -120,10 +120,10 @@ gcc lex.yy.c -o lexical_analyzer -ll
 
 ### **Steps to Compile and Run:**
 ```sh
-yacc -d yacc_spec.y
-lex yacc_spec.l
-gcc y.tab.c lex.yy.c -o yacc_spec -ll
-./yacc_spec
+yacc -d arith.y
+lex arith.l
+gcc y.tab.c lex.yy.c -o arith -ll
+./arith
 ```
 
 ### **Example Implementations:**
