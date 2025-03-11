@@ -1,4 +1,4 @@
-# Automata Programs: Running and Usage Guide
+# Automata Programs:
 
 This document explains how to compile and run the following programs:
 
